@@ -19,9 +19,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          env:
-            - name: KUBECONFIG
-              value: /var/run/secrets/kubernetes.io/serviceaccount/token
           volumeMounts:
             - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
               name: kube-api-access
