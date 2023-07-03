@@ -3,7 +3,17 @@ entries:
   navitain:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-03T11:13:21.536312-07:00"
+    created: "2023-07-03T13:30:48.820979-07:00"
+    description: A Helm chart for Monitoring
+    digest: 757f74d8e79f564cf68a96ac6d428d991c96cdfd927a3ad412053e3015552826
+    name: navitain
+    type: application
+    urls:
+    - navitain-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-07-03T13:30:48.821919-07:00"
     description: A Helm chart for Monitoring
     digest: 1ca9a80ac61fdb77744f31d910a5ab09362a0a36a62373bb1d77ef83a74310ea
     name: navitain
@@ -11,4 +21,4 @@ entries:
     urls:
     - navitain-0.1.9.tgz
     version: 0.1.9
-generated: "2023-07-03T11:13:21.535825-07:00"
+generated: "2023-07-03T13:30:48.820467-07:00"
