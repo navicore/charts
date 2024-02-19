@@ -24,6 +24,8 @@ spec:
       - name: flask-app
         image: "{{ .Values.flask.repository }}:{{ .Values.flask.tag }}"
         env:
+        - name: MY_ENV_CONFIG
+          value: "I am from the yaml."
         - name: MY_SECRET
           valueFrom:
             secretKeyRef:
