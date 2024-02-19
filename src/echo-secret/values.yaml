@@ -7,7 +7,7 @@ image:
 
 flask:
   repository: navicore/echo-secret-py
-  tag: "latest"
+  tag: "v0.1.1"
   pullPolicy: IfNotPresent
 
 mySecretMessage: "secret message you will see if you read the k8s secret in your app." # This value will be overridden by the Kubernetes secret
