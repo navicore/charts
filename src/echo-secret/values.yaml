@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "stable"
+
+flask:
+  repository: navicore/echo-secret-py
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+mySecretMessage: "secret message you will see if you read the k8s secret in your app." # This value will be overridden by the Kubernetes secret
+

@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: echo-secret
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: echo-secret-app
+  template:
+    metadata:
+      labels:
+        app: echo-secret-app
+    spec:
+      volumes:
+      - name: nginx-config-volume
+        configMap:
+          name: nginx-config
+      initContainers:
+      - name: init-container
+        image: busybox
+        command: ['sh', '-c', 'echo "hello world"']
+      containers:
+      - name: flask-app
+        image: "{{ .Values.flask.repository }}:{{ .Values.flask.tag }}"
+        env:
+        - name: MY_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: my-secret
+              key: MY_SECRET_MESSAGE
+      - name: nginx-sidecar
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: nginx-config-volume
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
