@@ -3,7 +3,17 @@ entries:
   echo-secret:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-19T19:22:57.825191-08:00"
+    created: "2024-02-19T19:32:19.653568-08:00"
+    description: Echo Secret Demo Chart
+    digest: f39bc7c56bba9344cea6a4827ffdf6c59ef37dc20d5aaab1831d6a8b258b6bd2
+    name: echo-secret
+    type: application
+    urls:
+    - echo-secret-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-19T19:32:19.65337-08:00"
     description: Echo Secret Demo Chart
     digest: ebd40bc74c6b1d98ce1aee01cce56491e985ad15bc182bf95bd7bdb320d528aa
     name: echo-secret
@@ -13,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-19T19:22:57.824934-08:00"
+    created: "2024-02-19T19:32:19.653148-08:00"
     description: Echo Secret Demo Chart
     digest: 459458172b97b6c30df73e1e0b029e0f9cc7fa57ed75ede87c61f4a5797a7ee8
     name: echo-secret
@@ -23,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-19T19:22:57.824634-08:00"
+    created: "2024-02-19T19:32:19.652931-08:00"
     description: Echo Secret Demo Chart
     digest: 4aca0760d0b33e21b396c96df474b52c7c944d93f3d334323882d5b9390c4f49
     name: echo-secret
@@ -33,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-19T19:22:57.824321-08:00"
+    created: "2024-02-19T19:32:19.652711-08:00"
     description: Echo Secret Demo Chart
     digest: 2f4a71e7a2d8a9449e2ba46dbc2dfaef10a83809f3dfcc87714af7c9c79c4880
     name: echo-secret
@@ -44,7 +54,7 @@ entries:
   navitain:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-19T19:22:57.825611-08:00"
+    created: "2024-02-19T19:32:19.653919-08:00"
     description: A Helm chart for Monitoring
     digest: 757f74d8e79f564cf68a96ac6d428d991c96cdfd927a3ad412053e3015552826
     name: navitain
@@ -54,7 +64,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-19T19:22:57.826047-08:00"
+    created: "2024-02-19T19:32:19.654246-08:00"
     description: A Helm chart for Monitoring
     digest: 1ca9a80ac61fdb77744f31d910a5ab09362a0a36a62373bb1d77ef83a74310ea
     name: navitain
@@ -62,4 +72,4 @@ entries:
     urls:
     - navitain-0.1.9.tgz
     version: 0.1.9
-generated: "2024-02-19T19:22:57.823821-08:00"
+generated: "2024-02-19T19:32:19.652331-08:00"
