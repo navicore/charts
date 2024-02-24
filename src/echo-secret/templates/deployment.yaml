@@ -24,6 +24,24 @@ spec:
       - name: flask-app
         image: "{{ .Values.flask.repository }}:{{ .Values.flask.tag }}"
         env:
+        - name: MY_ENV_CONFIG_1
+          value: "val1"
+        - name: MY_ENV_CONFIG_2
+          value: "val2"
+        - name: MY_ENV_CONFIG_3
+          value: "val3"
+        - name: MY_ENV_CONFIG_4
+          value: "val4"
+        - name: MY_ENV_CONFIG_5
+          value: "val5"
+        - name: MY_ENV_CONFIG_6
+          value: "val6"
+        - name: MY_ENV_CONFIG_7
+          value: "val7"
+        - name: MY_ENV_CONFIG_8
+          value: "val8"
+        - name: MY_ENV_CONFIG_9
+          value: "val9"
         - name: MY_ENV_CONFIG
           value: "I am from the yaml."
         - name: MY_SECRET
