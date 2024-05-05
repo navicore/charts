@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mosquitto-config
+data:
+  mosquitto.conf: |
+    # Place your Mosquitto configuration here
+    # Example:
+    persistence true
+    persistence_location /mosquitto/data/
+    log_dest stdout
+    allow_anonymous true

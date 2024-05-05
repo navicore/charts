@@ -1,0 +1,4 @@
+mosquitto:
+  repository: eclipse-mosquitto
+  tag: latest
+  pullPolicy: IfNotPresent
