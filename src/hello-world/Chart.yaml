@@ -1,0 +1,5 @@
+# Chart.yaml
+apiVersion: v2
+name: hello-world
+description: A Helm chart for deploying a simple "Hello, World!" REST service with Ingress.
+version: 0.1.0
