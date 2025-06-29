@@ -135,5 +135,25 @@ nodeSelector: {}
 # Tolerations
 tolerations: []
 
-# Affinity
-affinity: {}
+# Affinity - Ensures audio-source and audio-relay run on different nodes
+affinity:
+  audioSource:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/component
+                operator: In
+                values:
+                  - audio-relay
+          topologyKey: kubernetes.io/hostname
+  audioRelay:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/component
+                operator: In
+                values:
+                  - audio-source
+          topologyKey: kubernetes.io/hostname
