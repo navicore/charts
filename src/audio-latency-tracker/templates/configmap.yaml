@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "audio-latency-tracker.fullname" . }}
+  labels:
+    {{- include "audio-latency-tracker.labels" . | nindent 4 }}
+data:
+  # Core Configuration
+  INTERFACE: {{ .Values.config.interface | quote }}
+  LOG_LEVEL: {{ .Values.config.logLevel | quote }}
+  METRICS_PORT: {{ .Values.config.metricsPort | quote }}
+  
+  # Audio Processing
+  {{- if .Values.config.audioPorts }}
+  AUDIO_PORTS: {{ .Values.config.audioPorts | quote }}
+  {{- end }}
+  SIGNATURE_WINDOW_SIZE: {{ .Values.config.signatureWindowSize | quote }}
+  SILENCE_THRESHOLD: {{ .Values.config.silenceThreshold | quote }}
+  SIGNATURE_ALGORITHM: {{ .Values.config.signatureAlgorithm | quote }}
+  
+  # Kubernetes Integration
+  K8S_ENABLED: {{ .Values.kubernetes.enabled | quote }}
+  CONTAINER_RUNTIME: {{ .Values.containerRuntime | quote }}
+  
+  # Performance Tuning
+  MAX_FLOWS: {{ .Values.config.maxFlows | quote }}
+  FLOW_TIMEOUT_MS: {{ .Values.config.flowTimeoutMs | quote }}
+  PERF_BUFFER_SIZE: {{ .Values.config.perfBufferSize | quote }}
