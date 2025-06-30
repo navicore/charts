@@ -1,0 +1,23 @@
+apiVersion: v2
+name: audio-latency-tracker
+description: eBPF-based audio latency tracking for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "v0.1.0"
+keywords:
+  - ebpf
+  - monitoring
+  - latency
+  - audio
+  - prometheus
+home: https://github.com/YOUR_USERNAME/audio-latency-tracker
+sources:
+  - https://github.com/YOUR_USERNAME/audio-latency-tracker
+maintainers:
+  - name: YOUR_NAME
+    email: YOUR_EMAIL
+icon: https://raw.githubusercontent.com/YOUR_USERNAME/audio-latency-tracker/main/icon.png
+annotations:
+  "artifacthub.io/license": Apache-2.0
+  "artifacthub.io/operator": "false"
+  "artifacthub.io/prerelease": "false"
