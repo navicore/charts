@@ -3,7 +3,7 @@ entries:
   audio-lab:
   - apiVersion: v2
     appVersion: "1.1"
-    created: "2025-06-30T19:05:00.179351-07:00"
+    created: "2025-06-30T22:19:41.896537-07:00"
     description: A Helm chart for the audio latency test application
     digest: deecd5c1fcc46a3a8530b35cbbe59aede4dd1af35f249cc365a74d7cfdbb496d
     home: https://github.com/navicore/k8s-audio-lab
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-06-30T19:05:00.178723-07:00"
+    created: "2025-06-30T22:19:41.895881-07:00"
     description: A Helm chart for the audio latency test application
     digest: 589978bc3e3725b1efdba3e22aa448cf25b58353b602849949673b9255696cff
     home: https://github.com/navicore/k8s-audio-lab
@@ -47,8 +47,35 @@ entries:
       artifacthub.io/operator: "false"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: v0.1.2
+    created: "2025-06-30T22:19:41.898067-07:00"
+    description: eBPF-based audio latency tracking for Kubernetes
+    digest: 525b665318fb1b29cb5096f57e46959c4d62629c317f6587854edbbab2f6cb34
+    home: https://github.com/navicore/audio-latency-tracker
+    icon: https://raw.githubusercontent.com/navicore/audio-latency-tracker/main/icon.png
+    keywords:
+    - ebpf
+    - monitoring
+    - latency
+    - audio
+    - prometheus
+    maintainers:
+    - email: ed@onextent.com
+      name: Ed Sweeney
+    name: audio-latency-tracker
+    sources:
+    - https://github.com/navicore/audio-latency-tracker
+    type: application
+    urls:
+    - audio-latency-tracker-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-06-30T19:05:00.180059-07:00"
+    created: "2025-06-30T22:19:41.897618-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: f95cddbf59a71f60603ed6744a12b2c0450df608ade21e16bd66f970160f2cc8
     home: https://github.com/YOUR_USERNAME/audio-latency-tracker
@@ -75,7 +102,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-06-30T19:05:00.179707-07:00"
+    created: "2025-06-30T22:19:41.897092-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: 0324ded1be3478147bde1ab07a82462d819e85fd505eeb4abb897dd89e39d181
     home: https://github.com/YOUR_USERNAME/audio-latency-tracker
@@ -99,7 +126,7 @@ entries:
   echo-secret:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181945-07:00"
+    created: "2025-06-30T22:19:41.899773-07:00"
     description: Echo Secret Demo Chart
     digest: ac837ff1a4b247e55a67d8286c28aca3557349659c50366c9c5f13a7af646d43
     name: echo-secret
@@ -109,7 +136,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181729-07:00"
+    created: "2025-06-30T22:19:41.899525-07:00"
     description: Echo Secret Demo Chart
     digest: f2353c6f0e9e4861c3f572a81751df8268389a4a38a6a38b8a9fa24628300a77
     name: echo-secret
@@ -119,7 +146,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181569-07:00"
+    created: "2025-06-30T22:19:41.899316-07:00"
     description: Echo Secret Demo Chart
     digest: f39bc7c56bba9344cea6a4827ffdf6c59ef37dc20d5aaab1831d6a8b258b6bd2
     name: echo-secret
@@ -129,7 +156,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181449-07:00"
+    created: "2025-06-30T22:19:41.899204-07:00"
     description: Echo Secret Demo Chart
     digest: ebd40bc74c6b1d98ce1aee01cce56491e985ad15bc182bf95bd7bdb320d528aa
     name: echo-secret
@@ -139,7 +166,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181326-07:00"
+    created: "2025-06-30T22:19:41.899056-07:00"
     description: Echo Secret Demo Chart
     digest: 459458172b97b6c30df73e1e0b029e0f9cc7fa57ed75ede87c61f4a5797a7ee8
     name: echo-secret
@@ -149,7 +176,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.181003-07:00"
+    created: "2025-06-30T22:19:41.898753-07:00"
     description: Echo Secret Demo Chart
     digest: 4aca0760d0b33e21b396c96df474b52c7c944d93f3d334323882d5b9390c4f49
     name: echo-secret
@@ -159,7 +186,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-30T19:05:00.180351-07:00"
+    created: "2025-06-30T22:19:41.898421-07:00"
     description: Echo Secret Demo Chart
     digest: 2f4a71e7a2d8a9449e2ba46dbc2dfaef10a83809f3dfcc87714af7c9c79c4880
     name: echo-secret
@@ -169,7 +196,7 @@ entries:
     version: 0.1.0
   hello-world:
   - apiVersion: v2
-    created: "2025-06-30T19:05:00.182075-07:00"
+    created: "2025-06-30T22:19:41.899909-07:00"
     description: A Helm chart for deploying a simple "Hello, World!" REST service
       with Ingress.
     digest: 21e31bdc30389036ca03a7fc1b1154ddbfef81f658cde0a757d1b9cc6d3e1d2c
@@ -180,7 +207,7 @@ entries:
   mosquitto:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-30T19:05:00.182178-07:00"
+    created: "2025-06-30T22:19:41.900009-07:00"
     description: MQTT mosquitto Helm Chart
     digest: 00fedf1bf76935f1ddf2636d99fe073e0d60f49cf5a53c4201ebb128e7e0d499
     name: mosquitto
@@ -190,7 +217,7 @@ entries:
   navitain:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-30T19:05:00.182378-07:00"
+    created: "2025-06-30T22:19:41.900188-07:00"
     description: A Helm chart for Monitoring
     digest: 757f74d8e79f564cf68a96ac6d428d991c96cdfd927a3ad412053e3015552826
     name: navitain
@@ -200,7 +227,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-06-30T19:05:00.182567-07:00"
+    created: "2025-06-30T22:19:41.900361-07:00"
     description: A Helm chart for Monitoring
     digest: 1ca9a80ac61fdb77744f31d910a5ab09362a0a36a62373bb1d77ef83a74310ea
     name: navitain
@@ -208,4 +235,4 @@ entries:
     urls:
     - navitain-0.1.9.tgz
     version: 0.1.9
-generated: "2025-06-30T19:05:00.177772-07:00"
+generated: "2025-06-30T22:19:41.895279-07:00"

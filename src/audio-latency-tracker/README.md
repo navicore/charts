@@ -32,7 +32,7 @@ The following table lists the configurable parameters and their default values.
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
-| `image.repository` | Image repository | `YOUR_DOCKERHUB_USERNAME/audio-latency-tracker` |
+| `image.repository` | Image repository | `navicore/audio-latency-tracker` |
 | `image.tag` | Image tag | `""` (uses appVersion) |
 | `image.pullPolicy` | Image pull policy | `IfNotPresent` |
 | `config.interface` | Network interface to monitor | `eth0` |

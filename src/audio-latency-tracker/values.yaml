@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: YOUR_DOCKERHUB_USERNAME/audio-latency-tracker
+  repository: navicore/audio-latency-tracker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -95,7 +95,7 @@ affinity: {}
 # Prometheus ServiceMonitor
 serviceMonitor:
   # Create ServiceMonitor resource for Prometheus Operator
-  enabled: true
+  enabled: false
   # Interval at which metrics should be scraped
   interval: 30s
   # Timeout after which the scrape is ended
