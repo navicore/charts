@@ -7,7 +7,7 @@
 
 # Global settings
 global:
-  namespace: audio-demo
+  #namespace: audio-demo
   # Set this to your domain to enable ingress for both services
   # Example: helm install audio-lab . --set global.domain=audiolab.navicore.tech
   domain: ""
@@ -21,7 +21,7 @@ audioSource:
     repository: navicore/k8s-audio-audio-source
     pullPolicy: IfNotPresent
     # Defaults to chart appVersion, override with specific version
-    tag: ""
+    tag: "latest"
   
   service:
     type: ClusterIP
@@ -63,7 +63,7 @@ audioRelay:
     repository: navicore/k8s-audio-audio-relay
     pullPolicy: IfNotPresent
     # Defaults to chart appVersion, override with specific version
-    tag: ""
+    tag: "latest"
   
   service:
     type: ClusterIP

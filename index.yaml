@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   audio-lab:
   - apiVersion: v2
+    appVersion: v0.1.2
+    created: "2025-07-01T21:48:27.094294-07:00"
+    description: A Helm chart for the audio latency test application
+    digest: b91e64f4d3bcd0f8bb1dc83ded4b2197a09eb4be02ce96efbca161ed8cc9b2e0
+    home: https://github.com/navicore/k8s-audio-lab
+    keywords:
+    - audio
+    - latency
+    - testing
+    maintainers:
+    - email: your-email@example.com
+      name: navicore
+    name: audio-lab
+    sources:
+    - https://github.com/navicore/k8s-audio-lab
+    type: application
+    urls:
+    - audio-lab-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: "1.1"
-    created: "2025-07-02T04:25:02.50584959-07:00"
+    created: "2025-07-01T21:48:27.093942-07:00"
     description: A Helm chart for the audio latency test application
     digest: deecd5c1fcc46a3a8530b35cbbe59aede4dd1af35f249cc365a74d7cfdbb496d
     home: https://github.com/navicore/k8s-audio-lab
@@ -23,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-07-02T04:25:02.505460921-07:00"
+    created: "2025-07-01T21:48:27.093373-07:00"
     description: A Helm chart for the audio latency test application
     digest: 589978bc3e3725b1efdba3e22aa448cf25b58353b602849949673b9255696cff
     home: https://github.com/navicore/k8s-audio-lab
@@ -48,7 +68,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.1.3
-    created: "2025-07-02T04:25:02.507352157-07:00"
+    created: "2025-07-01T21:48:27.09673-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: 89efbcb9c667acd558e8c7de692a622f7787fef3e12a26f848d44a90ed817ca3
     home: https://github.com/navicore/audio-latency-tracker
@@ -75,7 +95,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.1.2
-    created: "2025-07-02T04:25:02.506988606-07:00"
+    created: "2025-07-01T21:48:27.096408-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: 525b665318fb1b29cb5096f57e46959c4d62629c317f6587854edbbab2f6cb34
     home: https://github.com/navicore/audio-latency-tracker
@@ -102,7 +122,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.1.1
-    created: "2025-07-02T04:25:02.506630735-07:00"
+    created: "2025-07-01T21:48:27.095893-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: f95cddbf59a71f60603ed6744a12b2c0450df608ade21e16bd66f970160f2cc8
     home: https://github.com/YOUR_USERNAME/audio-latency-tracker
@@ -129,7 +149,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.1.0
-    created: "2025-07-02T04:25:02.506252495-07:00"
+    created: "2025-07-01T21:48:27.094884-07:00"
     description: eBPF-based audio latency tracking for Kubernetes
     digest: 0324ded1be3478147bde1ab07a82462d819e85fd505eeb4abb897dd89e39d181
     home: https://github.com/YOUR_USERNAME/audio-latency-tracker
@@ -153,7 +173,7 @@ entries:
   echo-secret:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.508155484-07:00"
+    created: "2025-07-01T21:48:27.098271-07:00"
     description: Echo Secret Demo Chart
     digest: ac837ff1a4b247e55a67d8286c28aca3557349659c50366c9c5f13a7af646d43
     name: echo-secret
@@ -163,7 +183,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.508023426-07:00"
+    created: "2025-07-01T21:48:27.09805-07:00"
     description: Echo Secret Demo Chart
     digest: f2353c6f0e9e4861c3f572a81751df8268389a4a38a6a38b8a9fa24628300a77
     name: echo-secret
@@ -173,7 +193,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.507917878-07:00"
+    created: "2025-07-01T21:48:27.097883-07:00"
     description: Echo Secret Demo Chart
     digest: f39bc7c56bba9344cea6a4827ffdf6c59ef37dc20d5aaab1831d6a8b258b6bd2
     name: echo-secret
@@ -183,7 +203,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.50781202-07:00"
+    created: "2025-07-01T21:48:27.097768-07:00"
     description: Echo Secret Demo Chart
     digest: ebd40bc74c6b1d98ce1aee01cce56491e985ad15bc182bf95bd7bdb320d528aa
     name: echo-secret
@@ -193,7 +213,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.507701663-07:00"
+    created: "2025-07-01T21:48:27.097625-07:00"
     description: Echo Secret Demo Chart
     digest: 459458172b97b6c30df73e1e0b029e0f9cc7fa57ed75ede87c61f4a5797a7ee8
     name: echo-secret
@@ -203,7 +223,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.507582369-07:00"
+    created: "2025-07-01T21:48:27.097289-07:00"
     description: Echo Secret Demo Chart
     digest: 4aca0760d0b33e21b396c96df474b52c7c944d93f3d334323882d5b9390c4f49
     name: echo-secret
@@ -213,7 +233,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-02T04:25:02.50747104-07:00"
+    created: "2025-07-01T21:48:27.097009-07:00"
     description: Echo Secret Demo Chart
     digest: 2f4a71e7a2d8a9449e2ba46dbc2dfaef10a83809f3dfcc87714af7c9c79c4880
     name: echo-secret
@@ -223,7 +243,7 @@ entries:
     version: 0.1.0
   hello-world:
   - apiVersion: v2
-    created: "2025-07-02T04:25:02.508280709-07:00"
+    created: "2025-07-01T21:48:27.098532-07:00"
     description: A Helm chart for deploying a simple "Hello, World!" REST service
       with Ingress.
     digest: 21e31bdc30389036ca03a7fc1b1154ddbfef81f658cde0a757d1b9cc6d3e1d2c
@@ -234,7 +254,7 @@ entries:
   mosquitto:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-02T04:25:02.508378111-07:00"
+    created: "2025-07-01T21:48:27.098644-07:00"
     description: MQTT mosquitto Helm Chart
     digest: 00fedf1bf76935f1ddf2636d99fe073e0d60f49cf5a53c4201ebb128e7e0d499
     name: mosquitto
@@ -244,7 +264,7 @@ entries:
   navitain:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-02T04:25:02.508553009-07:00"
+    created: "2025-07-01T21:48:27.098817-07:00"
     description: A Helm chart for Monitoring
     digest: 757f74d8e79f564cf68a96ac6d428d991c96cdfd927a3ad412053e3015552826
     name: navitain
@@ -254,7 +274,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-07-02T04:25:02.50872947-07:00"
+    created: "2025-07-01T21:48:27.098994-07:00"
     description: A Helm chart for Monitoring
     digest: 1ca9a80ac61fdb77744f31d910a5ab09362a0a36a62373bb1d77ef83a74310ea
     name: navitain
@@ -262,4 +282,4 @@ entries:
     urls:
     - navitain-0.1.9.tgz
     version: 0.1.9
-generated: "2025-07-02T04:25:02.504995558-07:00"
+generated: "2025-07-01T21:48:27.092018-07:00"
